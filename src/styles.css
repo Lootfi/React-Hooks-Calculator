@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  width: 300px;
+}
+
+#display {
+  text-align: end;
+  padding: 10px;
+  background-color: rgb(243, 131, 131);
+}
+
+#Operators {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#Operators button {
+  background-color: rgb(44, 43, 43);
+  color: white;
+  padding: 10px;
+  border: 1px solid white;
+}
+#Operators Operator[value="="] {
+  background-color: red;
+}
